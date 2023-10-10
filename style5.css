@@ -1,0 +1,277 @@
+/* Reset beberapa gaya default */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header dan navbar */
+header {
+    background-color: #111111;
+    color: rgb(247, 243, 243);
+    padding: 10px 0;
+    margin-bottom: 20px; /* Menambahkan jarak bawah header */
+    background-color: #fff;
+}
+.aku{
+    margin-top: 60px;
+    background-image: url('https://images.samsung.com/is/image/samsung/assets/id/homepage/main-homepage/2023/web-bespoke-1440x640.jpg?imwidth=1366');
+    
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1330px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+}
+
+.logo img {
+    /* Mengatur lebar maksimum logo */
+    height: 50px; /* Mengikuti tinggi asli gambar */
+    width: 150px;
+    margin-right: 10px; /* Menambahkan jarak antara gambar dan teks */
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #1AACAC; /* Ubah warna teks saat dihover */
+}
+
+
+
+
+/* Style untuk slideshow */
+.slideshow-container {
+    position:relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0; /* Menambahkan jarak atas dan bawah slideshow */
+    margin-bottom: 10px;
+}
+
+.slide {
+    display:none;
+}
+
+.slide img {
+    width: 100%;
+    height: 500px;
+}
+
+.slide-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+/* Style untuk tombol "Previous" dan "Next" */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px; /* Mengatur tinggi agar tombol berada di tengah vertikal */
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.next {
+    right: 0;
+}
+
+/* Tombol "Previous" dan "Next" saat dihover */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/* Style for the container */
+.wow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 100%;
+    background-image: url('https://images.samsung.com/is/image/samsung/assets/id/2307/home/default-HOME_Q5_MX-KV_1440X810_pc.jpg?$1440_810_JPG$');
+}
+
+/* Style for individual cards */
+.card, .card2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 300px /* Mengatur lebar card, 3 card dalam 1 baris */
+}
+
+.card{
+    transition: transform 0.3s ease-in-out;
+}
+
+.card2{
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover, .card2:hover{
+    transform: scale(1.2);
+}
+/* Style for images inside the cards */
+.card img, .card2 img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+/* Style for headings inside the cards */
+.card h2, .card2 h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+/* Style for the entire footer */
+/* Reset some default margin and padding */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the long footer */
+.long-footer {
+    background-color: #5c5656;
+    color: #000;
+    padding: 40px 0;
+}
+
+/* Center the content within the footer */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Style for the left section of the footer */
+.footer-left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-left h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Style for the center section of the footer */
+.footer-center {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-center h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-center ul {
+    list-style: none;
+}
+
+.footer-center ul li {
+    margin-bottom: 10px;
+}
+
+.footer-center a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-center a:hover {
+    color: #ff9900;
+}
+
+/* Style for the right section of the footer */
+.footer-right {
+    flex: 1;
+}
+
+.footer-right h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-right p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
